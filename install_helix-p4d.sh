@@ -14,7 +14,7 @@ wget -qO - https://package.perforce.com/perforce.pubkey | sudo apt-key add -
 touch /etc/apt/sources.list.d/perforce.list
 
 # Add source for Ubuntu bionic distro
-echo deb http://package.perforce.com/apt/ubuntu boinic release >> /etc/apt/sources.list.d/perforce.list
+echo deb http://package.perforce.com/apt/ubuntu bionic release >> /etc/apt/sources.list.d/perforce.list
 
 # Update sources
 apt-get update
