@@ -8,7 +8,7 @@
 ##################################################################
 
 # Add line to ssh config that enable root ssh capabilities with documentation
-echo # Allow ssh for root >> /etc/ssh/sshd_config 
+echo "\n# Allow ssh for root" >> /etc/ssh/sshd_config 
 echo PermitRootLogin yes >> /etc/ssh/sshd_config
 
 # Restart ssh server
