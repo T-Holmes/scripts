@@ -17,7 +17,7 @@ touch /etc/apt/sources.list.d/perforce.list
 echo deb http://package.perforce.com/apt/ubuntu bionic release >> /etc/apt/sources.list.d/perforce.list
 
 # Update sources
-apt-get update
+apt-get update -y
 
 # Install helix-p4d
-apt-get install helix-p4d
+apt-get install helix-p4d -y
